@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+body {
+    background-color: rgb(255, 255, 227);
+}
+section {
+    margin: 1em;
+    padding: 1em;
+}
+footer {
+    text-align: center;
+    font-family: garamond;
+}
+address {
+    background-color: #FFFFFF;
+    padding: 2em;
+}
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+h2 {
+    font-size: xxx-large;
+    text-align: center;
+    font-family: garamond;
+    font-style: italic;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fcecc6;
+}
+p {
+    text-align: center;
+    font-family: garamond;
+    width: 50em;
+    margin: 0 auto;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60em;
+    margin: 0 auto;
+    list-style-type: none;
+}
+li {
+    margin: 2px;
+}
+figure {
+    text-align: center;
+}
+figure img {
+    border-top: 3px solid #F5BD26;
+    border-bottom: 3px solid #F5BD26;
+}
