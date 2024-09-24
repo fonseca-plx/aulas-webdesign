@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HackaTruck</title>
+    <style>
+        main {
+            width: 70em;
+            margin: 0 auto;
+            border: 1px solid black;
+            display: grid; /* O display grid deve ser aplicado ao elemento conteiner */
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 20em 10em 30em;
+            grid-template-areas: /* Estrutura das áreas do grid (a forma como as divs serão organizadas) */
+            "a a a"
+            "c b d"
+            "e e e";
+            gap: 2em;
+        }
+        div.area-a {
+            grid-area: a;
+        }
+        div.area-b {
+            grid-area: b;
+        }
+        div.area-c {
+            grid-area: c;
+        }
+        div.area-d {
+            grid-area: d;
+        }
+        div.area-e {
+            grid-area: e;
+        }
+        main > div {
+            background-color: rgb(246, 236, 222);
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="area-a"><p>Área A</p></div>
+        <div class="area-b"><p>Área B</p></div>
+        <div class="area-c"><p>Área C</p></div>
+        <div class="area-d"><p>Área D</p></div>
+        <div class="area-e"><p>Área E</p></div>
+    </main>
+</body>
+</html>

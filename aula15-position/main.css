@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: darkgreen;
+    padding: 2em;
+    color: white;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ao aplicar "position" o elemento passa a ter a largura mínima necessária */
+}
+main p {
+    margin: 2em;
+}
+div#modal, div.box {
+    width: 20em;
+    height: 20em;
+    background-color: greenyellow;
+    padding: 2em;
+    box-sizing: border-box; /* Aplica o padding internamente, ou seja, sem aumentar o espaço ocupado pelo elemento. */
+    position: absolute; /* Posiciona o elemento de forma absoluta, ou seja, o elemento pode ficar sobreposto aos demais */
+    left: 300px;
+    top: 300px;
+}
+div.box1 {
+    left: 400px;
+    top: 400px;
+    background-color: violet;
+}
+div.box2 {
+    left: 500px;
+    top: 500px;
+    background-color: turquoise;
+}

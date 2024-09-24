@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício</title>
+    <style>
+        main {
+            width: 70em;
+            margin: 0 auto;
+            padding: 1em;
+            border: 1px solid black;
+            display: grid;
+            grid-template-areas: "nav a b c" "nav d d c" "nav e e c";
+            grid-template-columns: 1fr 2fr 1fr 1fr;
+            grid-template-rows: 10em 10em 10em;
+            gap: 1em;
+        }
+        div.nav {
+            grid-area: nav;
+        }
+        div.a {
+            grid-area: a;
+        }
+        div.b {
+            grid-area: b;
+        }
+        div.c {
+            grid-area: c;
+        }
+        div.d {
+            grid-area: d;
+        }
+        div.e {
+            grid-area: e;
+        }
+        div {
+            background-color:lightcyan;
+            padding: 1em;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="nav">
+            <p>nav</p>
+        </div>
+        <div class="a">
+            <p>a</p>
+        </div>
+        <div class="b">
+            <p>b</p>
+        </div>
+        <div class="c">
+            <p>c</p>
+        </div>
+        <div class="d">
+            <p>d</p>
+        </div>
+        <div class="e">
+            <p>e</p>
+        </div>
+    </main>
+</body>
+</html>
